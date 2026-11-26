@@ -1,0 +1,1158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>游戏可以搞的模拟女友_模拟恋爱游戏推荐_虚拟女友玩法解析</title>
+<meta name="description" content="游戏可以搞的模拟女友专题，收录模拟恋爱、虚拟女友养成、AI 对话陪伴等具体条目与玩法解析，含精选推荐、更新动态、分类入口与新手消费路径，适合想找恋爱模拟作品与虚拟陪伴体验的玩家查阅。">
+<meta name="keywords" content="模拟恋爱游戏,虚拟女友养成,恋爱模拟作品,AI 对话陪伴,好感度养成">
+<style>
+:root{
+  --bg:#f4f0fb;
+  --bg-2:#ece5f8;
+  --panel:#ffffff;
+  --panel-soft:#faf7ff;
+  --ink:#241b36;
+  --ink-2:#4a3d63;
+  --ink-3:#7a6c93;
+  --line:#e3daf2;
+  --line-strong:#d2c4ea;
+  --brand:#7a3ff2;
+  --brand-deep:#5a20c9;
+  --brand-soft:#efe7ff;
+  --pink:#e8508f;
+  --pink-soft:#ffe9f3;
+  --amber:#c98a12;
+  --amber-soft:#fff4dc;
+  --teal:#1d9a8a;
+  --teal-soft:#e0f5f1;
+  --radius-s:8px;
+  --radius-m:14px;
+  --radius-l:22px;
+  --shadow-s:0 1px 2px rgba(52,30,90,.06),0 2px 8px rgba(52,30,90,.05);
+  --shadow-m:0 4px 14px rgba(52,30,90,.08),0 10px 30px rgba(52,30,90,.07);
+  --sticky-h:104px;
+  --maxw:1320px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);
+  background-image:radial-gradient(1200px 500px at 15% -10%,#e6d9ff 0%,rgba(230,217,255,0) 60%),
+                   radial-gradient(900px 420px at 95% 0%,#ffe1ef 0%,rgba(255,225,239,0) 55%);
+  line-height:1.75;font-size:15.5px;-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--brand-deep);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:800;letter-spacing:.2px}
+p{margin:0 0 .85em}
+ul,ol{margin:0 0 .9em;padding-left:1.2em}
+li{margin:.28em 0}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-radius:6px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* ============ 吸顶公告条 + 页头 ============ */
+.sticky-wrap{position:sticky;top:0;z-index:80}
+.notice{
+  background:linear-gradient(90deg,#5a20c9,#8a3ff5 45%,#e8508f);
+  color:#fff;font-size:13.5px;
+}
+.notice-inner{
+  max-width:var(--maxw);margin:0 auto;padding:8px 20px;
+  display:flex;gap:14px;align-items:center;flex-wrap:wrap;
+}
+.notice-tag{
+  background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);
+  padding:1px 9px;border-radius:99px;font-weight:700;font-size:12px;letter-spacing:.5px;
+  flex:none;
+}
+.notice-text{flex:1 1 240px;min-width:0}
+.notice-text b{color:#ffe9a8;font-weight:800}
+.notice-link{color:#fff;text-decoration:underline;text-underline-offset:3px;font-weight:700;white-space:nowrap}
+.notice-link:hover{color:#ffe9a8}
+.site-header{
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+  box-shadow:0 2px 12px rgba(52,30,90,.06);
+}
+.header-inner{
+  max-width:var(--maxw);margin:0 auto;padding:10px 20px;
+  display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:11px;flex:none}
+.brand-mark{width:44px;height:44px;flex:none}
+.brand-name{font-size:19px;font-weight:900;color:var(--ink);letter-spacing:.4px;line-height:1.2}
+.brand-sub{display:block;font-size:11px;color:var(--ink-3);font-weight:600;letter-spacing:1.6px;text-transform:uppercase}
+.nav-main{display:flex;gap:4px;flex:1 1 420px;flex-wrap:wrap}
+.nav-main a{
+  padding:6px 11px;border-radius:99px;font-size:14px;font-weight:600;color:var(--ink-2);
+  text-decoration:none;transition:.15s;
+}
+.nav-main a:hover{background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
+.header-tools{display:flex;align-items:center;gap:8px;flex:none}
+.search-box{display:flex;align-items:center;background:var(--panel-soft);border:1px solid var(--line-strong);border-radius:99px;padding:3px 4px 3px 12px}
+.search-box input{
+  border:0;background:transparent;font:inherit;font-size:13.5px;width:140px;color:var(--ink);padding:4px 0;
+}
+.search-box input:focus{outline:none}
+.search-box button{
+  border:0;background:var(--brand);color:#fff;border-radius:99px;padding:5px 13px;font:inherit;
+  font-size:13px;font-weight:700;cursor:pointer;
+}
+.search-box button:hover{background:var(--brand-deep)}
+.btn-cta{
+  background:var(--ink);color:#fff;border-radius:99px;padding:7px 16px;font-size:13.5px;font-weight:700;
+  text-decoration:none;white-space:nowrap;
+}
+.btn-cta:hover{background:var(--brand-deep);text-decoration:none;color:#fff}
+
+/* ============ 首屏 ============ */
+.hero{
+  max-width:var(--maxw);margin:0 auto;padding:34px 20px 12px;
+}
+.hero-card{
+  background:linear-gradient(135deg,#2a1247 0%,#4c1e8c 42%,#8d3ad6 72%,#e8508f 118%);
+  border-radius:var(--radius-l);color:#fff;overflow:hidden;position:relative;
+  box-shadow:var(--shadow-m);
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:10px;
+}
+.hero-card::after{
+  content:"";position:absolute;inset:auto -80px -140px auto;width:420px;height:420px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,255,255,.22),rgba(255,255,255,0) 65%);pointer-events:none;
+}
+.hero-copy{padding:38px 12px 38px 38px;position:relative;z-index:2;min-width:0}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.16);
+  border:1px solid rgba(255,255,255,.32);border-radius:99px;padding:4px 13px;font-size:12.5px;
+  font-weight:700;letter-spacing:.8px;margin-bottom:16px;
+}
+.hero-eyebrow .dot{width:7px;height:7px;border-radius:50%;background:#7dffd0;box-shadow:0 0 0 4px rgba(125,255,208,.22)}
+.hero h1{font-size:clamp(26px,3.4vw,40px);letter-spacing:.6px;text-shadow:0 2px 18px rgba(0,0,0,.22)}
+.hero-lead{margin-top:14px;font-size:15.5px;color:rgba(255,255,255,.9);max-width:520px}
+.hero-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:22px}
+.btn-primary{
+  background:#fff;color:#43167f;border-radius:99px;padding:10px 22px;font-weight:800;font-size:14.5px;
+  text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.18);
+}
+.btn-primary:hover{background:#ffe9f3;text-decoration:none;color:#43167f}
+.btn-ghost{
+  background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.45);
+  border-radius:99px;padding:10px 20px;font-weight:700;font-size:14.5px;text-decoration:none;
+}
+.btn-ghost:hover{background:rgba(255,255,255,.24);text-decoration:none;color:#fff}
+.hero-stats{display:flex;gap:26px;margin-top:26px;flex-wrap:wrap}
+.hero-stat b{display:block;font-size:22px;font-weight:900;letter-spacing:.5px}
+.hero-stat span{font-size:12.5px;color:rgba(255,255,255,.75);letter-spacing:.6px}
+.hero-art{
+  position:relative;min-height:300px;display:flex;align-items:center;justify-content:center;padding:16px 24px 16px 0;
+}
+.hero-art svg{width:100%;max-width:380px;height:auto;filter:drop-shadow(0 14px 30px rgba(0,0,0,.3))}
+
+/* ============ 布局：三栏门户 ============ */
+.layout{
+  max-width:var(--maxw);margin:0 auto;padding:22px 20px 10px;
+  display:grid;grid-template-columns:182px minmax(0,1fr) 258px;gap:22px;align-items:start;
+}
+section[id],article[id],div[id]{scroll-margin-top:calc(var(--sticky-h) + 14px)}
+
+/* 左频道索引 */
+.rail-left{position:sticky;top:calc(var(--sticky-h) + 14px)}
+.rail-card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-m);
+  box-shadow:var(--shadow-s);padding:14px 12px;
+}
+.rail-title{
+  font-size:12px;font-weight:800;letter-spacing:2px;color:var(--ink-3);text-transform:uppercase;
+  padding:0 6px 8px;border-bottom:1px dashed var(--line);margin-bottom:8px;
+}
+.chan-list{list-style:none;padding:0;margin:0}
+.chan-list li{margin:1px 0}
+.chan-list a{
+  display:flex;align-items:center;justify-content:space-between;gap:6px;
+  padding:7px 9px;border-radius:9px;font-size:14px;font-weight:600;color:var(--ink-2);
+  text-decoration:none;
+}
+.chan-list a:hover{background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
+.chan-list .cnt{font-size:11px;color:var(--ink-3);font-weight:700;background:var(--bg-2);border-radius:99px;padding:0 7px}
+.rail-note{
+  margin-top:12px;background:var(--panel-soft);border:1px dashed var(--line-strong);border-radius:var(--radius-s);
+  padding:10px 11px;font-size:12.5px;color:var(--ink-2);line-height:1.65;
+}
+.rail-note b{color:var(--brand-deep)}
+
+/* 右辅助栏 */
+.rail-right{display:flex;flex-direction:column;gap:18px;position:sticky;top:calc(var(--sticky-h) + 14px)}
+.side-card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-m);
+  box-shadow:var(--shadow-s);padding:15px 15px 13px;
+}
+.side-card h3{
+  font-size:14px;font-weight:800;color:var(--ink);display:flex;align-items:center;gap:7px;
+  padding-bottom:9px;margin-bottom:10px;border-bottom:1px solid var(--line);
+}
+.side-card h3::before{content:"";width:4px;height:15px;border-radius:2px;background:var(--brand)}
+.rank-list{list-style:none;padding:0;margin:0;counter-reset:rk}
+.rank-list li{
+  display:flex;gap:9px;align-items:baseline;padding:6px 0;font-size:13.6px;border-bottom:1px dashed #f0eaf9;
+}
+.rank-list li:last-child{border-bottom:0}
+.rank-list li::before{
+  counter-increment:rk;content:counter(rk);flex:none;width:18px;height:18px;border-radius:6px;
+  background:var(--bg-2);color:var(--ink-2);font-size:11px;font-weight:800;display:grid;place-items:center;
+  transform:translateY(-1px);
+}
+.rank-list li:nth-child(-n+3)::before{background:linear-gradient(135deg,var(--brand),var(--pink));color:#fff}
+.rank-list a{color:var(--ink);font-weight:600;text-decoration:none;flex:1 1 auto;min-width:0}
+.rank-list a:hover{color:var(--brand-deep)}
+.rank-list .meta{font-size:11.5px;color:var(--ink-3);white-space:nowrap;font-weight:700}
+
+/* ============ 通用板块 ============ */
+.block{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-l);
+  box-shadow:var(--shadow-s);padding:24px 26px 26px;margin-bottom:22px;
+}
+.block-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+.block-head h2{
+  font-size:21px;letter-spacing:.3px;display:flex;align-items:center;gap:10px;
+}
+.block-head h2::before{content:"";width:6px;height:22px;border-radius:3px;background:linear-gradient(180deg,var(--brand),var(--pink))}
+.block-sub{font-size:13.5px;color:var(--ink-3);margin:0 0 16px}
+.kicker{
+  font-size:11.5px;letter-spacing:1.6px;font-weight:800;color:var(--brand-deep);
+  background:var(--brand-soft);border-radius:99px;padding:3px 11px;flex:none;
+}
+.prose{font-size:15.2px;color:var(--ink-2);line-height:1.85}
+.prose h3{font-size:16.5px;color:var(--ink);margin:22px 0 8px;padding-left:12px;position:relative}
+.prose h3::before{content:"";position:absolute;left:0;top:5px;bottom:5px;width:3px;border-radius:2px;background:var(--pink)}
+.prose strong{color:var(--brand-deep)}
+.prose ul{padding-left:1.15em}
+.prose li::marker{color:var(--pink);font-weight:800}
+
+/* 卡片网格 */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:16px}
+.card{
+  border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;background:var(--panel);
+  display:flex;flex-direction:column;transition:.18s;box-shadow:var(--shadow-s);
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m);border-color:var(--line-strong)}
+.card-thumb{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--bg-2)}
+.card-thumb img{width:100%;height:100%;object-fit:cover;transition:.35s}
+.card:hover .card-thumb img{transform:scale(1.05)}
+.card-badge{
+  position:absolute;left:9px;top:9px;background:rgba(36,27,54,.82);color:#fff;font-size:11.5px;
+  font-weight:800;padding:2px 9px;border-radius:99px;letter-spacing:.5px;backdrop-filter:blur(4px);
+}
+.card-body{padding:12px 13px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-title{font-size:15px;font-weight:800;color:var(--ink);line-height:1.45}
+.card-desc{font-size:13.2px;color:var(--ink-2);line-height:1.65;margin:0;flex:1}
+.tag-row{display:flex;gap:5px;flex-wrap:wrap}
+.tag{
+  font-size:11.5px;font-weight:700;padding:1.5px 8px;border-radius:99px;
+  background:var(--bg-2);color:var(--ink-2);border:1px solid var(--line);
+}
+.tag.pink{background:var(--pink-soft);color:#b02a63;border-color:#ffd3e4}
+.tag.teal{background:var(--teal-soft);color:#0d6f63;border-color:#c3eae3}
+.tag.amber{background:var(--amber-soft);color:#8a5c02;border-color:#f5e0b0}
+.card-foot{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--ink-3);font-weight:700;border-top:1px dashed var(--line);padding-top:8px}
+.score{color:var(--pink);font-weight:900}
+
+/* 更新列表 */
+.update-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:2px 22px}
+.update-list li{
+  display:flex;gap:11px;align-items:flex-start;padding:9px 0;border-bottom:1px dashed #f0eaf9;font-size:14px;
+}
+.update-list li:last-child{border-bottom:0}
+.up-time{
+  flex:none;width:64px;font-size:12px;font-weight:800;color:var(--brand-deep);background:var(--brand-soft);
+  border-radius:6px;text-align:center;padding:1px 0;transform:translateY(2px);
+}
+.up-body{min-width:0}
+.up-body b{color:var(--ink);font-weight:800}
+.up-body span{color:var(--ink-2);font-size:13.3px}
+
+/* 分类入口 */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.cat-item{
+  border:1px solid var(--line);border-radius:var(--radius-m);padding:13px 14px;background:var(--panel-soft);
+  text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:3px;transition:.16s;
+}
+.cat-item:hover{background:var(--brand-soft);border-color:var(--brand);text-decoration:none;transform:translateY(-2px)}
+.cat-item b{font-size:14.5px;color:var(--brand-deep)}
+.cat-item span{font-size:12.4px;color:var(--ink-3);line-height:1.55}
+
+/* 对照面板 */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0 6px}
+.compare-panel{border:1px solid var(--line);border-radius:var(--radius-m);padding:14px 16px;background:var(--panel-soft)}
+.compare-panel h4{font-size:14.5px;margin-bottom:8px;color:var(--brand-deep);display:flex;align-items:center;gap:7px}
+.compare-panel h4 .pill{font-size:11px;font-weight:800;background:var(--brand);color:#fff;border-radius:99px;padding:1px 8px}
+.compare-panel ul{font-size:13.6px;color:var(--ink-2);margin:0;padding-left:1.1em}
+
+/* 编号步骤 */
+.steps{list-style:none;padding:0;margin:12px 0;counter-reset:st;display:grid;gap:10px}
+.steps li{
+  counter-increment:st;position:relative;padding:12px 15px 12px 52px;background:var(--panel-soft);
+  border:1px solid var(--line);border-radius:var(--radius-m);font-size:14.2px;color:var(--ink-2);
+}
+.steps li::before{
+  content:counter(st,decimal-leading-zero);position:absolute;left:14px;top:12px;
+  font-size:15px;font-weight:900;color:var(--brand);letter-spacing:.5px;
+}
+.steps li b{color:var(--ink)}
+
+/* FAQ */
+.faq{display:grid;gap:9px}
+.faq details{
+  border:1px solid var(--line);border-radius:var(--radius-m);background:var(--panel-soft);overflow:hidden;
+}
+.faq summary{
+  cursor:pointer;padding:12px 16px;font-weight:800;font-size:14.6px;color:var(--ink);list-style:none;
+  display:flex;align-items:center;gap:10px;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{
+  content:"Q";flex:none;width:21px;height:21px;border-radius:6px;background:var(--brand);color:#fff;
+  font-size:12px;font-weight:900;display:grid;place-items:center;
+}
+.faq summary::after{
+  content:"+";margin-left:auto;font-size:17px;color:var(--brand-deep);font-weight:800;transition:.2s;
+}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details[open] summary{background:var(--brand-soft)}
+.faq .faq-a{padding:4px 16px 14px 47px;font-size:14px;color:var(--ink-2);line-height:1.8}
+
+/* 评论 */
+.comment-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:13px}
+.comment{
+  border:1px solid var(--line);border-radius:var(--radius-m);padding:12px 14px;background:var(--panel-soft);
+  display:flex;flex-direction:column;gap:6px;
+}
+.cm-head{display:flex;align-items:center;gap:8px}
+.avatar{
+  width:28px;height:28px;border-radius:50%;flex:none;display:grid;place-items:center;
+  font-size:12px;font-weight:900;color:#fff;letter-spacing:0;
+}
+.cm-name{font-size:13.2px;font-weight:800;color:var(--ink)}
+.cm-date{font-size:11.5px;color:var(--ink-3);margin-left:auto;font-weight:700}
+.cm-text{font-size:13.4px;color:var(--ink-2);line-height:1.72;margin:0}
+.cm-text em{font-style:normal;color:var(--brand-deep);font-weight:700}
+
+/* 资讯 */
+.news-list{display:grid;gap:12px}
+.news-item{
+  display:grid;grid-template-columns:132px minmax(0,1fr);gap:14px;border:1px solid var(--line);
+  border-radius:var(--radius-m);overflow:hidden;background:var(--panel);transition:.16s;
+}
+.news-item:hover{border-color:var(--line-strong);box-shadow:var(--shadow-s)}
+.news-item img{width:100%;height:100%;object-fit:cover;min-height:96px}
+.news-body{padding:11px 14px 12px 0;min-width:0}
+.news-body h4{font-size:14.8px;color:var(--ink);margin-bottom:4px}
+.news-body p{font-size:13.2px;color:var(--ink-2);margin:0 0 5px;line-height:1.65}
+.news-date{font-size:11.8px;color:var(--ink-3);font-weight:700;letter-spacing:.4px}
+
+/* 标签索引 */
+.tag-index{display:flex;flex-wrap:wrap;gap:9px}
+.tag-index a{
+  font-size:13.2px;font-weight:700;padding:5px 13px;border-radius:99px;background:var(--panel-soft);
+  border:1px solid var(--line-strong);color:var(--ink-2);text-decoration:none;transition:.15s;
+}
+.tag-index a:hover{background:var(--brand);border-color:var(--brand);color:#fff;text-decoration:none}
+
+/* 时间线 */
+.timeline{list-style:none;padding:0;margin:8px 0 0;position:relative}
+.timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line-strong)}
+.timeline li{position:relative;padding:0 0 16px 30px;font-size:14px;color:var(--ink-2)}
+.timeline li::before{
+  content:"";position:absolute;left:0;top:6px;width:16px;height:16px;border-radius:50%;
+  background:#fff;border:4px solid var(--brand);
+}
+.timeline li:last-child{padding-bottom:0}
+.timeline b{color:var(--ink);display:block;font-size:14.2px}
+.timeline .tl-date{font-size:12px;color:var(--brand-deep);font-weight:800;letter-spacing:.5px}
+
+/* 引语 */
+.quote-card{
+  border-left:4px solid var(--pink);background:var(--pink-soft);border-radius:0 var(--radius-m) var(--radius-m) 0;
+  padding:14px 18px;margin:14px 0;font-size:14.4px;color:#7d2049;
+}
+.quote-card footer{font-size:12.5px;color:#a8466e;font-weight:800;margin-top:6px}
+
+.empty-hint{
+  display:none;padding:14px;border:1px dashed var(--line-strong);border-radius:var(--radius-m);
+  background:var(--panel-soft);color:var(--ink-2);font-size:14px;margin-top:12px;
+}
+.empty-hint.show{display:block}
+
+/* 页尾 */
+.site-footer{
+  margin-top:26px;background:linear-gradient(180deg,#2a1247,#1b0d2f);color:#cbbde3;padding:38px 20px 22px;
+}
+.footer-inner{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:26px}
+.footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.footer-brand .brand-name{color:#fff}
+.footer-brand .brand-sub{color:#a58fc7}
+.footer-desc{font-size:13.2px;line-height:1.75;color:#b5a4d1;max-width:300px}
+.footer-col h4{font-size:13.5px;color:#fff;margin-bottom:10px;letter-spacing:.6px}
+.footer-col ul{list-style:none;padding:0;margin:0}
+.footer-col li{margin:5px 0}
+.footer-col a{font-size:13px;color:#b5a4d1;text-decoration:none}
+.footer-col a:hover{color:#fff;text-decoration:underline}
+.footer-bottom{
+  max-width:var(--maxw);margin:26px auto 0;padding-top:16px;border-top:1px solid rgba(255,255,255,.12);
+  font-size:12.2px;color:#9a86bb;display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between;
+}
+
+/* 响应式 */
+@media (max-width:1120px){
+  .layout{grid-template-columns:170px minmax(0,1fr);}
+  .rail-right{grid-column:1 / -1;position:static;flex-direction:row;flex-wrap:wrap}
+  .rail-right .side-card{flex:1 1 280px}
+}
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .rail-left{position:static;order:2}
+  .chan-list{display:flex;flex-wrap:wrap;gap:6px}
+  .chan-list li{flex:1 1 auto}
+  .chan-list a{justify-content:center;background:var(--panel-soft);border:1px solid var(--line)}
+  .hero-card{grid-template-columns:1fr}
+  .hero-art{padding:0 24px 24px;min-height:auto}
+  .hero-copy{padding:30px 26px 8px}
+  .update-list{grid-template-columns:1fr}
+  .footer-inner{grid-template-columns:1fr 1fr}
+}
+@media (max-width:740px){
+  body{font-size:15px}
+  .hero h1{font-size:26px}
+  .block{padding:19px 16px 20px;border-radius:var(--radius-m)}
+  .block-head h2{font-size:18.5px}
+  .card-grid{grid-template-columns:1fr 1fr;gap:11px}
+  .card-body{padding:10px 10px 12px}
+  .card-title{font-size:13.6px}
+  .card-desc{font-size:12.4px}
+  .compare{grid-template-columns:1fr}
+  .news-item{grid-template-columns:100px minmax(0,1fr)}
+  .footer-inner{grid-template-columns:1fr}
+  .search-box input{width:96px}
+  .nav-main{order:3;flex-basis:100%}
+  .header-tools{margin-left:auto}
+  .faq .faq-a{padding-left:16px}
+  .hero-stats{gap:18px}
+}
+@media (max-width:420px){
+  .card-grid{grid-template-columns:1fr}
+  .hero-actions .btn-primary,.hero-actions .btn-ghost{padding:9px 16px;font-size:13.6px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<div class="sticky-wrap">
+  <div class="notice" role="region" aria-label="站内公告">
+    <div class="notice-inner">
+      <span class="notice-tag">今日更新</span>
+      <span class="notice-text"><b>11 月 25 日</b> 新增 9 条模拟女友条目：<b>《雨夜来电》</b>第 4 章上线、<b>AI 女友「小满」</b>开放好感度回顾、<b>《同居三十日》</b>追加冬季结局。</span>
+      <a class="notice-link" href="#updates">查看更新明细</a>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="游戏可以搞的模拟女友 首页">
+        <svg class="brand-mark" viewBox="0 0 48 48" role="img" aria-label="双心对话框标志">
+          <defs>
+            <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#8a3ff5"/><stop offset="1" stop-color="#e8508f"/>
+            </linearGradient>
+          </defs>
+          <rect x="2" y="2" width="44" height="44" rx="14" fill="url(#lg1)"/>
+          <path d="M24 36s-9-5.6-9-11.6c0-3.1 2.4-5.4 5.3-5.4 1.6 0 3 .8 3.7 2 .7-1.2 2.1-2 3.7-2 2.9 0 5.3 2.3 5.3 5.4C33 30.4 24 36 24 36z" fill="#fff"/>
+          <circle cx="16.5" cy="15.5" r="2.1" fill="#ffe9a8"/>
+          <circle cx="32" cy="14" r="1.5" fill="#7dffd0"/>
+        </svg>
+        <span class="brand-name">游戏可以搞的模拟女友<span class="brand-sub">SIM GIRLFRIEND INDEX</span></span>
+      </a>
+      <nav class="nav-main" aria-label="主导航">
+        <a href="#overview">领域概览</a>
+        <a href="#picks">精选推荐</a>
+        <a href="#updates">更新动态</a>
+        <a href="#categories">分类入口</a>
+        <a href="#deepdive">深度解析</a>
+        <a href="#guide">体验路径</a>
+        <a href="#faq">常见问答</a>
+        <a href="#comments">玩家评论</a>
+      </nav>
+      <div class="header-tools">
+        <div class="search-box">
+          <label class="sr-only" for="siteSearch">搜索条目名称或类型</label>
+          <input id="siteSearch" type="search" placeholder="搜条目 / 类型" autocomplete="off">
+          <button type="button" id="searchBtn">查找</button>
+        </div>
+        <a class="btn-cta" href="#picks">开始挑选</a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="heroH1">
+    <div class="hero-card">
+      <div class="hero-copy">
+        <span class="hero-eyebrow"><span class="dot"></span>恋爱模拟 · 虚拟陪伴 · 好感度养成</span>
+        <h1 id="heroH1">游戏可以搞的模拟女友</h1>
+        <p class="hero-lead">从剧情向恋爱模拟、日常同居养成，到 AI 对话陪伴与语音互动，这里按条目整理能真正“搞”起来的虚拟女友玩法：谁有完整人设、谁的好感度系统经得起长期玩、谁适合第一次接触。</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#picks">看 9 个精选条目</a>
+          <a class="btn-ghost" href="#guide">新手先玩哪个</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><b>128</b><span>在录条目</span></div>
+          <div class="hero-stat"><b>9</b><span>今日新增</span></div>
+          <div class="hero-stat"><b>8</b><span>玩法分类</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 340 300" role="img" aria-label="手机屏幕中的虚拟女友形象与好感度进度构图">
+          <defs>
+            <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#3a1a6b"/><stop offset="1" stop-color="#8d3ad6"/>
+            </linearGradient>
+            <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ff9ec7"/><stop offset="1" stop-color="#e8508f"/>
+            </linearGradient>
+            <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#7dffd0"/><stop offset="1" stop-color="#ffe9a8"/>
+            </linearGradient>
+          </defs>
+          <rect x="82" y="18" width="176" height="264" rx="26" fill="url(#scr)" stroke="rgba(255,255,255,.35)" stroke-width="2"/>
+          <rect x="94" y="30" width="152" height="240" rx="18" fill="#1d0f36" opacity=".55"/>
+          <!-- 人物 -->
+          <path d="M170 92c-26 0-40 20-40 44 0 16 6 26 6 26h68s6-10 6-26c0-24-14-44-40-44z" fill="url(#hair)"/>
+          <ellipse cx="170" cy="118" rx="27" ry="30" fill="#ffe0d0"/>
+          <path d="M143 110c0-22 12-34 27-34s27 12 27 34c0 0-10-12-27-12s-27 12-27 12z" fill="url(#hair)"/>
+          <circle cx="159" cy="118" r="3.4" fill="#3a1a6b"/>
+          <circle cx="181" cy="118" r="3.4" fill="#3a1a6b"/>
+          <path d="M164 132q6 5 12 0" stroke="#e8508f" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <circle cx="148" cy="129" r="5" fill="#ffb4cd" opacity=".7"/>
+          <circle cx="192" cy="129" r="5" fill="#ffb4cd" opacity=".7"/>
+          <path d="M126 176c8-14 26-20 44-20s36 6 44 20v34h-88z" fill="#ff8fbd"/>
+          <path d="M170 156v54" stroke="#fff" stroke-width="2" opacity=".35"/>
+          <!-- 对话气泡 -->
+          <rect x="26" y="66" width="98" height="42" rx="12" fill="#fff" opacity=".94"/>
+          <path d="M52 108l-6 12 16-12z" fill="#fff" opacity=".94"/>
+          <rect x="38" y="79" width="66" height="6" rx="3" fill="#c9b6ea"/>
+          <rect x="38" y="91" width="46" height="6" rx="3" fill="#e3d6f7"/>
+          <rect x="222" y="150" width="96" height="40" rx="12" fill="#ffe9a8" opacity=".95"/>
+          <path d="M292 190l8 12-20-12z" fill="#ffe9a8" opacity=".95"/>
+          <rect x="234" y="162" width="62" height="6" rx="3" fill="#c99a2e" opacity=".6"/>
+          <rect x="234" y="174" width="42" height="6" rx="3" fill="#c99a2e" opacity=".4"/>
+          <!-- 好感度条 -->
+          <rect x="100" y="230" width="140" height="10" rx="5" fill="rgba(255,255,255,.2)"/>
+          <rect x="100" y="230" width="104" height="10" rx="5" fill="url(#bar)"/>
+          <text x="100" y="222" fill="#fff" font-size="11" font-family="sans-serif" font-weight="700">好感度 74%</text>
+          <text x="100" y="256" fill="rgba(255,255,255,.7)" font-size="10" font-family="sans-serif">第 4 章 · 雨夜来电</text>
+          <!-- 装饰心 -->
+          <path d="M292 60c0-6 8-8 10-2 2-6 10-4 10 2 0 6-10 12-10 12s-10-6-10-12z" fill="#ff8fbd" opacity=".85"/>
+          <path d="M46 210c0-4 6-6 7-1 1-5 7-3 7 1 0 4-7 9-7 9s-7-5-7-9z" fill="#7dffd0" opacity=".7"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+
+    <!-- 左：频道索引 -->
+    <aside class="rail-left" aria-label="频道索引">
+      <div class="rail-card">
+        <div class="rail-title">频道索引</div>
+        <ul class="chan-list">
+          <li><a href="#overview">领域概览<span class="cnt">读</span></a></li>
+          <li><a href="#picks">精选推荐<span class="cnt">9</span></a></li>
+          <li><a href="#updates">更新动态<span class="cnt">10</span></a></li>
+          <li><a href="#categories">分类入口<span class="cnt">8</span></a></li>
+          <li><a href="#deepdive">深度解析<span class="cnt">读</span></a></li>
+          <li><a href="#guide">体验路径<span class="cnt">5</span></a></li>
+          <li><a href="#faq">常见问答<span class="cnt">6</span></a></li>
+          <li><a href="#comments">玩家评论<span class="cnt">14</span></a></li>
+          <li><a href="#news">相关资讯<span class="cnt">6</span></a></li>
+          <li><a href="#related">相关推荐<span class="cnt">8</span></a></li>
+          <li><a href="#ranking">人气榜单<span class="cnt">10</span></a></li>
+          <li><a href="#timeline">版本时间线<span class="cnt">6</span></a></li>
+        </ul>
+        <div class="rail-note">
+          <b>今日提示：</b>《雨夜来电》第 4 章需要先完成前三章的三个“雨伞事件”才会触发隐藏对话。
+        </div>
+      </div>
+    </aside>
+
+    <!-- 中：主内容 -->
+    <div class="main-col">
+
+      <!-- 1 领域概览 -->
+      <section class="block" id="overview" aria-labelledby="h-overview">
+        <div class="block-head">
+          <h2 id="h-overview">模拟女友领域概览：从剧情恋爱到 AI 陪伴</h2>
+          <span class="kicker">OVERVIEW</span>
+        </div>
+        <div class="prose">
+          <p>所谓“模拟女友”，在游戏语境里其实分成差别很大的几条路线，选择前先弄清自己要的是哪一种，比盲目下载十个应用有效得多。</p>
+          <p><strong>剧情向恋爱模拟</strong>以固定人设和章节推进为主，代表作如《雨夜来电》《同居三十日》，特点是女主有完整背景故事、选项影响结局，玩家在有限章节里体验一段被写好的关系。<strong>日常养成型</strong>更强调长期陪伴，像《同居三十日》的日常回合、《心动物语》的约会安排，好感度、体力、心情三条数值驱动互动，节奏慢但黏性高。</p>
+          <p><strong>AI 对话陪伴</strong>是近两年增长最快的一类。以「小满」「星野同学」为代表，角色没有固定剧本，靠语言模型实时回应，优势是自由度极高，劣势是剧情张力依赖玩家自己推动。<strong>语音互动类</strong>如《耳语时刻》，把重点放在配音、语气和来电场景，适合通勤、睡前短时段使用。</p>
+          <p>还有两条容易被忽略的分支：一是<strong>模拟经营 + 恋爱</strong>的混合型，比如《花店与告白》，你要一边经营店铺一边推进关系；二是<strong>多角色群像</strong>型，如《六人晚餐》，同一周目里要在四位女主之间分配时间，取舍本身就是玩法。</p>
+          <p>判断一个条目值不值得投入，可以看三个维度：人设是否前后一致、好感度系统是否有真实反馈、单周目时长是否与实际可支配时间匹配。当前值得关注的动向是，越来越多作品在章节之外加入“回忆回顾”和“结局收集”，让长期玩家有回头重玩的理由。</p>
+        </div>
+      </section>
+
+      <!-- 2 精选推荐 -->
+      <section class="block" id="picks" aria-labelledby="h-picks">
+        <div class="block-head">
+          <h2 id="h-picks">精选模拟女友条目推荐</h2>
+          <span class="kicker">9 个条目</span>
+        </div>
+        <p class="block-sub">按人设完整度、好感度反馈和单周目时长筛选，每张卡片写明这个条目具体是什么、适合谁。</p>
+        <div class="card-grid" id="pickGrid">
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-yuye-rain/400/300" width="400" height="300" loading="lazy" alt="《雨夜来电》雨夜电话亭场景封面">
+              <span class="card-badge">剧情向</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">《雨夜来电》</h3>
+              <p class="card-desc">以连续雨夜电话为主线的章节式恋爱模拟，女主是便利店夜班店员，每次通话选项会改变第二天的天气描写与她对你的称呼。第 4 章刚上线。</p>
+              <div class="tag-row"><span class="tag">章节式</span><span class="tag pink">隐藏对话</span><span class="tag">雨伞事件</span></div>
+              <div class="card-foot"><span>更新至第 4 章</span><span class="score">9.1</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-tongju-30/400/300" width="400" height="300" loading="lazy" alt="《同居三十日》公寓客厅生活场景封面">
+              <span class="card-badge">日常养成</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">《同居三十日》</h3>
+              <p class="card-desc">三十天回合制同居模拟，每天分配做饭、散步、看电影三件事，好感度与心情分开计算。11 月追加了冬季结局，雪天散步触发率提高。</p>
+              <div class="tag-row"><span class="tag teal">回合制</span><span class="tag">冬季结局</span><span class="tag amber">慢节奏</span></div>
+              <div class="card-foot"><span>冬季版已开放</span><span class="score">8.8</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-xiaoman-ai/400/300" width="400" height="300" loading="lazy" alt="AI 女友小满对话界面封面">
+              <span class="card-badge">AI 陪伴</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">AI 女友「小满」</h3>
+              <p class="card-desc">自由对话型虚拟女友，设定了插画师职业与固定口头禅，会记住你提过的书名和作息。本周开放好感度回顾，能看到三十天内的对话关键词统计。</p>
+              <div class="tag-row"><span class="tag pink">自由对话</span><span class="tag">长期记忆</span><span class="tag">插画师人设</span></div>
+              <div class="card-foot"><span>今日 09:30 更新</span><span class="score">8.6</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-earwhisper/400/300" width="400" height="300" loading="lazy" alt="《耳语时刻》夜间语音来电场景封面">
+              <span class="card-badge">语音互动</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">《耳语时刻》</h3>
+              <p class="card-desc">以语音来电为核心的作品，每段三到八分钟，场景围绕下班路上、睡前、加班深夜。配音分温柔与清冷两套声线，可单独切换。</p>
+              <div class="tag-row"><span class="tag teal">语音来电</span><span class="tag">双声线</span><span class="tag">短时段</span></div>
+              <div class="card-foot"><span>11 月新增 6 段</span><span class="score">8.4</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-flower-shop/400/300" width="400" height="300" loading="lazy" alt="《花店与告白》街角花店经营场景封面">
+              <span class="card-badge">经营混合</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">《花店与告白》</h3>
+              <p class="card-desc">白天经营街角花店，晚上和常客聊天推进关系。进货选品会直接影响聊天话题池，卖过什么花就会聊到什么花语，属于少见的经营驱动型恋爱模拟。</p>
+              <div class="tag-row"><span class="tag amber">经营</span><span class="tag">花语话题</span><span class="tag">双线推进</span></div>
+              <div class="card-foot"><span>11 月 18 日更新</span><span class="score">8.7</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-sixdinner/400/300" width="400" height="300" loading="lazy" alt="《六人晚餐》多人餐桌群像场景封面">
+              <span class="card-badge">群像多线</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">《六人晚餐》</h3>
+              <p class="card-desc">一周目内要在四位女主之间分配晚餐时间，选了谁就错过其他人的支线。取舍压力大，但多周目能解锁交叉对话，是目前多角色结构做得最细的一款。</p>
+              <div class="tag-row"><span class="tag pink">多角色</span><span class="tag">时间分配</span><span class="tag">多周目</span></div>
+              <div class="card-foot"><span>11 月 9 日更新</span><span class="score">9.0</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-xindong/400/300" width="400" height="300" loading="lazy" alt="《心动物语》约会日程界面封面">
+              <span class="card-badge">日程养成</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">《心动物语》</h3>
+              <p class="card-desc">用日历安排约会，体力、心情、好感度三条数值同时变化。下雨天约在室内会加心情，连续三天见面反而降好感，适合喜欢做计划的玩家。</p>
+              <div class="tag-row"><span class="tag teal">数值养成</span><span class="tag">日历系统</span><span class="tag">天气影响</span></div>
+              <div class="card-foot"><span>11 月 21 日更新</span><span class="score">8.3</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-xingye/400/300" width="400" height="300" loading="lazy" alt="AI 同学星野对话设定页封面">
+              <span class="card-badge">AI 陪伴</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">「星野同学」</h3>
+              <p class="card-desc">同桌设定的 AI 角色，会主动追问作业、社团和周末计划，回答里带一点别扭的性格。适合想要被主动搭话、不想每次都自己开头的人。</p>
+              <div class="tag-row"><span class="tag pink">主动搭话</span><span class="tag">同桌人设</span><span class="tag">轻度陪伴</span></div>
+              <div class="card-foot"><span>11 月 23 日更新</span><span class="score">8.2</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/mnvb-lateletter/400/300" width="400" height="300" loading="lazy" alt="《迟到的情书》书信叙事界面封面">
+              <span class="card-badge">文字叙事</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">《迟到的情书》</h3>
+              <p class="card-desc">纯文字书信往来，时间跨度两年，靠回信内容决定关系走向。没有立绘和配音，全部信息藏在字里行间，适合喜欢慢读和做批注的玩家。</p>
+              <div class="tag-row"><span class="tag">书信体</span><span class="tag amber">重阅读</span><span class="tag">两年时间线</span></div>
+              <div class="card-foot"><span>11 月 5 日更新</span><span class="score">8.9</span></div>
+            </div>
+          </article>
+
+        </div>
+        <div class="empty-hint" id="searchHint">没有找到匹配的条目。可以试试“剧情”“AI”“语音”“经营”等类型词，或直接输入上面卡片里的作品名。</div>
+      </section>
+
+      <!-- 3 更新动态 -->
+      <section class="block" id="updates" aria-labelledby="h-updates">
+        <div class="block-head">
+          <h2 id="h-updates">最新更新与热播动态</h2>
+          <span class="kicker">10 条</span>
+        </div>
+        <p class="block-sub">2026 年 11 月 25 日及此前两周内的条目变化，含章节上线、结局追加与规则调整。</p>
+        <ul class="update-list">
+          <li><span class="up-time">今天 09:30</span><div class="up-body"><b>《雨夜来电》</b><span>第 4 章「便利店的伞」上线，新增两段隐藏通话。</span></div></li>
+          <li><span class="up-time">今天 08:10</span><div class="up-body"><b>AI 女友「小满」</b><span>开放好感度回顾页，可查看近 30 天对话关键词。</span></div></li>
+          <li><span class="up-time">昨天 21:10</span><div class="up-body"><b>《同居三十日》</b><span>冬季结局实装，雪天散步触发概率上调至 35%。</span></div></li>
+          <li><span class="up-time">昨天 18:40</span><div class="up-body"><b>《耳语时刻》</b><span>新增「加班深夜」场景 6 段，清冷声线同步补录。</span></div></li>
+          <li><span class="up-time">11 月 23 日</span><div class="up-body"><b>「星野同学」</b><span>新增社团话题池，会主动问起你周五的安排。</span></div></li>
+          <li><span class="up-time">11 月 21 日</span><div class="up-body"><b>《心动物语》</b><span>修复连续约会降好感提示不显示的问题。</span></div></li>
+          <li><span class="up-time">11 月 18 日</span><div class="up-body"><b>《花店与告白》</b><span>新增六种花材，花语话题池扩充至 42 条。</span></div></li>
+          <li><span class="up-time">11 月 12 日</span><div class="up-body"><b>《六人晚餐》</b><span>二周目交叉对话解锁条件从好感 60 下调至 50。</span></div></li>
+          <li><span class="up-time">11 月 9 日</span><div class="up-body"><b>《六人晚餐》</b><span>追加第四位女主「沈栖」的独立支线。</span></div></li>
+          <li><span class="up-time">11 月 5 日</span><div class="up-body"><b>《迟到的情书》</b><span>第二年秋季回信开放，新增 9 封可选信件。</span></div></li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="block" id="categories" aria-labelledby="h-categories">
+        <div class="block-head">
+          <h2 id="h-categories">按玩法分类找条目</h2>
+          <span class="kicker">8 个分类</span>
+        </div>
+        <p class="block-sub">分类名称对应你实际会搜索的玩法词，点进去可看该类目下的代表条目与判断标准。</p>
+        <div class="cat-grid">
+          <a class="cat-item" href="#deepdive"><b>剧情向恋爱模拟</b><span>章节推进、选项影响结局，代表作《雨夜来电》</span></a>
+          <a class="cat-item" href="#deepdive"><b>日常同居养成</b><span>回合制生活安排，好感度与心情分开算</span></a>
+          <a class="cat-item" href="#deepdive"><b>AI 对话陪伴</b><span>自由对话、长期记忆，无固定剧本</span></a>
+          <a class="cat-item" href="#deepdive"><b>语音来电互动</b><span>三到八分钟短场景，重视配音与语气</span></a>
+          <a class="cat-item" href="#deepdive"><b>经营混合型</b><span>一边开店一边推进关系，玩法驱动话题</span></a>
+          <a class="cat-item" href="#deepdive"><b>多角色群像</b><span>时间分配与取舍，多周目解锁交叉对话</span></a>
+          <a class="cat-item" href="#deepdive"><b>文字叙事</b><span>书信、日记、批注，重阅读轻演出</span></a>
+          <a class="cat-item" href="#deepdive"><b>结局收集向</b><span>多结局、回忆回顾，适合长期重玩</span></a>
+        </div>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="block" id="deepdive" aria-labelledby="h-deepdive">
+        <div class="block-head">
+          <h2 id="h-deepdive">深度解析：四种模拟女友路线的真实差别</h2>
+          <span class="kicker">LONG READ</span>
+        </div>
+        <div class="prose">
+          <p>把“游戏可以搞的模拟女友”当成一个整体来看，很容易踩坑：冲着剧情买回来，结果发现是每天签到刷好感；想要自由聊天，结果对方只会重复三句台词。下面按四条主线拆开讲，重点讲清楚同一路线内部的判断维度。</p>
+
+          <h3>剧情向：看章节密度，不看章节数量</h3>
+          <p>剧情向恋爱模拟的核心是“每章有多少有效选择”。《雨夜来电》目前 4 章，每章大约 12 个选项点，其中 3 个会改变后续称呼与天气描写，这类选择才算有效。《迟到的情书》走得更极端，一章只有 2 到 3 次回信决定，但每次选择影响长达半年的时间线。</p>
+          <ul>
+            <li><strong>有效选择比</strong>：一章里能改变后续文本的选项占比，低于 20% 通常意味着选择只是装饰。</li>
+            <li><strong>人设一致性</strong>：女主在生气、疲惫、开心三种状态下的说话方式是否有区分，这是判断写作功力的直接指标。</li>
+            <li><strong>单章时长</strong>：15 到 25 分钟比较合适，超过 40 分钟一章的作品，中途退出后很难接回情绪。</li>
+          </ul>
+          <p>剧情向还有一个隐性成本：结局收集。多结局作品如果不能在章节选择处跳转，重玩成本会成倍上升。《六人晚餐》在这点上做得较好，二周目可以直接从晚餐分配界面开始。</p>
+
+          <h3>日常养成：数值反馈是否讲得通</h3>
+          <p>养成型的乐趣来自“投入被看见”。《同居三十日》把好感度和心情拆成两条，做饭提升心情但只小幅加好感，深聊才大幅加好感却消耗心情，这个设计让每天的安排有真实取舍。《心动物语》则用天气和连续见面次数做约束，连续三天约会会降好感，逼玩家留出间隔。</p>
+          <p>判断养成型是否值得长期玩，看两点：一是数值变化有没有对应的文本反馈，二是后期是否有新的互动解锁。如果第 20 天和第 5 天能做的事完全一样，那这套数值就是空转。</p>
+
+          <h3>AI 陪伴：记忆与边界比文采更重要</h3>
+          <p>AI 对话陪伴的体验差异，几乎全部来自“记不记得住”。「小满」会记住你提过的书名并在几天后追问读后感，「星野同学」则偏向主动开启话题，适合不想每次自己找话的人。两者共同的问题是边界：当对话超出人设范围，回复质量会明显下滑。</p>
+          <ul>
+            <li>看是否支持长期记忆摘要，而不是只记最近十轮。</li>
+            <li>看人设是否有明确职业、作息、口头禅，越具体越稳定。</li>
+            <li>看是否有“回顾”功能，能回看过去的关键对话，这对长期陪伴很关键。</li>
+          </ul>
+
+          <h3>语音与文字：场景决定选择</h3>
+          <p>《耳语时刻》这类语音作品，本质是短场景消费，适合通勤和睡前，单段三到八分钟，不需要连续投入。《迟到的情书》则相反，需要整块时间和安静环境，读信、做批注、再回信，节奏慢但记忆点深。两者并不冲突，很多人会同时保留一个短场景作品和一个长阅读作品。</p>
+
+          <div class="compare">
+            <div class="compare-panel">
+              <h4><span class="pill">A</span>剧情向 / 文字叙事</h4>
+              <ul>
+                <li>强项：人设完整、情绪浓度高、有明确结局</li>
+                <li>弱项：重玩成本高，自由度低</li>
+                <li>适合：能连续投入 30 分钟以上的人</li>
+              </ul>
+            </div>
+            <div class="compare-panel">
+              <h4><span class="pill">B</span>养成 / AI 陪伴</h4>
+              <ul>
+                <li>强项：长期黏性、每天有变化、自由度高</li>
+                <li>弱项：剧情张力依赖玩家推动</li>
+                <li>适合：想每天花十分钟维持关系的人</li>
+              </ul>
+            </div>
+          </div>
+
+          <p>最后提醒一个常被忽略的点：模拟女友类作品的“更新节奏”差别很大。章节制通常两到四周一章，AI 类按周迭代话题池，语音类按月补场景。选之前先看它最近的更新日期，如果停更超过两个月，长期投入的预期要相应下调。</p>
+        </div>
+      </section>
+
+      <!-- 6 体验路径 -->
+      <section class="block" id="guide" aria-labelledby="h-guide">
+        <div class="block-head">
+          <h2 id="h-guide">体验路径：第一次接触先玩什么</h2>
+          <span class="kicker">5 步</span>
+        </div>
+        <p class="block-sub">按时间预算和接受度排序，不是页面操作说明，而是内容消费顺序。</p>
+        <ol class="steps">
+          <li><b>先确认每天能给多少时间。</b>十分钟以内选《耳语时刻》这类语音短场景；半小时以上再考虑《雨夜来电》的章节推进。</li>
+          <li><b>用一章试人设。</b>任何剧情向作品，先玩第一章，看女主在疲惫和开心时的说话方式是否有区别，没有区别就基本可以放下。</li>
+          <li><b>养成型先跑七天。</b>《同居三十日》《心动物语》这类，七天足够看出数值是否有真实反馈，也能判断后期会不会重复。</li>
+          <li><b>AI 陪伴类先聊三天再决定。</b>重点观察它是否记得你第二天提过的事，记不住的话长期陪伴价值有限。</li>
+          <li><b>最后再碰多周目作品。</b>《六人晚餐》这类需要重复投入，放在你已经确认自己喜欢该类型之后更合适。</li>
+        </ol>
+        <div class="quote-card">
+          一位长期玩家的说法：先看它有没有“第二天还在想你”的设计——如果游戏里的人物会主动提起昨天的事，那这段关系才立得住。
+          <footer>—— 玩家「半夜煮面」在评论区的总结</footer>
+        </div>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="block" id="faq" aria-labelledby="h-faq">
+        <div class="block-head">
+          <h2 id="h-faq">常见问答</h2>
+          <span class="kicker">6 问</span>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>模拟女友类游戏一般多久更新一次？</summary>
+            <div class="faq-a">分三种：章节制通常两到四周一章，如《雨夜来电》第 4 章与第 3 章间隔 19 天；AI 陪伴类按周迭代话题池和记忆功能；语音类按月补场景。判断是否值得长期跟，可以看它最近三个月的更新间隔是否稳定。</div>
+          </details>
+          <details>
+            <summary>剧情向恋爱模拟和 AI 对话陪伴有什么区别？</summary>
+            <div class="faq-a">剧情向有写好的剧本和结局，情绪浓度高但自由度低，代表是《迟到的情书》；AI 陪伴没有固定剧本，靠模型实时回应，自由度高但剧情张力要玩家自己推动，代表是「小满」。前者适合整块时间，后者适合每天十分钟。</div>
+          </details>
+          <details>
+            <summary>第一次接触，从哪个条目开始比较好？</summary>
+            <div class="faq-a">时间少就从《耳语时刻》开始，单段三到八分钟，不用记剧情；想看完整故事选《雨夜来电》，四章篇幅不算长；想每天有点小期待就试「星野同学」，它会主动找你说话。</div>
+          </details>
+          <details>
+            <summary>好感度系统的评判标准通常是什么？</summary>
+            <div class="faq-a">看三点：数值变化是否有对应文本、不同行为是否有真实取舍、后期是否解锁新互动。《同居三十日》把好感和心情拆开，做饭和深聊各有所得，属于设计较完整的；如果二十天后能做的事和第五天一样，这套数值就基本是空转。</div>
+          </details>
+          <details>
+            <summary>多角色作品会不会很难兼顾？</summary>
+            <div class="faq-a">《六人晚餐》一周目只能在四位女主间分配晚餐时间，选了谁就错过其他支线，这是设计意图而非缺陷。它的二周目交叉对话解锁条件在 11 月 12 日从好感 60 下调到 50，重玩压力小了不少。第一次玩建议专心推一条线。</div>
+          </details>
+          <details>
+            <summary>语音类和文字类可以同时玩吗？</summary>
+            <div class="faq-a">可以，而且很常见。语音类负责通勤、睡前的短场景，文字类负责周末的整块阅读，两者节奏不冲突。注意别同时开三个以上的长期养成作品，数值和目标容易记混。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 8 用户评论 -->
+      <section class="block" id="comments" aria-labelledby="h-comments">
+        <div class="block-head">
+          <h2 id="h-comments">玩家评论</h2>
+          <span class="kicker">14 条</span>
+        </div>
+        <p class="block-sub">围绕具体条目和具体类型展开，含中性评价。</p>
+        <div class="comment-grid">
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#7a3ff2">夜</span><span class="cm-name">半夜煮面</span><span class="cm-date">11-25</span></div><p class="cm-text"><em>《雨夜来电》</em>第 4 章那个伞的选项真的会改第二天的天气描写，我第一次见这种细节，值。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#e8508f">柠</span><span class="cm-name">柠檬气泡</span><span class="cm-date">11-25</span></div><p class="cm-text">小满记得我上周说在看的书，还问我读完了没，那一刻有点被吓到，也有点感动。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#1d9a8a">冬</span><span class="cm-name">冬日限定</span><span class="cm-date">11-24</span></div><p class="cm-text">《同居三十日》冬季结局不错，但雪天散步概率还是偏低，我刷了六天才触发一次。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#c98a12">地</span><span class="cm-name">地铁三号线</span><span class="cm-date">11-24</span></div><p class="cm-text">《耳语时刻》通勤听刚好，一段不到八分钟，清冷声线比温柔声线更适合我。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#5a20c9">六</span><span class="cm-name">六点钟起</span><span class="cm-date">11-23</span></div><p class="cm-text">《六人晚餐》一周目我全给了沈栖，结果其他三人支线全锁，二周目才知道取舍这么狠。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#e8508f">猫</span><span class="cm-name">猫在窗台</span><span class="cm-date">11-23</span></div><p class="cm-text">《迟到的情书》没有立绘一开始不适应，读到第二年秋天那封回信就完全接受了。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#7a3ff2">雨</span><span class="cm-name">雨伞没带</span><span class="cm-date">11-22</span></div><p class="cm-text">星野同学会主动问我周五干嘛，这点比小满强，小满基本等我说。不过小满的人设更完整。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#1d9a8a">花</span><span class="cm-name">花店常客</span><span class="cm-date">11-21</span></div><p class="cm-text">《花店与告白》卖什么花聊什么花语这个设计很妙，进货选品直接变成聊天内容。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#c98a12">心</span><span class="cm-name">心动日历</span><span class="cm-date">11-20</span></div><p class="cm-text">《心动物语》连续三天约会降好感这个设定，一开始觉得烦，后来发现确实逼你留白。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#5a20c9">慢</span><span class="cm-name">慢慢玩</span><span class="cm-date">11-19</span></div><p class="cm-text">养成类玩了四个，现在只留了两个，多了数值记不住，每天上线像打卡。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#e8508f">小</span><span class="cm-name">小陈同学</span><span class="cm-date">11-18</span></div><p class="cm-text">AI 类有个通病，聊到人设之外就开始重复。小满至少会拉回插画师的话题。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#7a3ff2">半</span><span class="cm-name">半糖去冰</span><span class="cm-date">11-17</span></div><p class="cm-text">《雨夜来电》前三章的雨伞事件如果不做，第 4 章隐藏对话触发不了，我卡了两天。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#1d9a8a">长</span><span class="cm-name">长夜读书</span><span class="cm-date">11-16</span></div><p class="cm-text">《迟到的情书》适合安静读，边看边在纸上记人物关系，体验反而更好。</p></div>
+          <div class="comment"><div class="cm-head"><span class="avatar" style="background:#c98a12">三</span><span class="cm-name">三十天用户</span><span class="cm-date">11-15</span></div><p class="cm-text">《同居三十日》后期内容有点重复，希望别只加结局，也能加新的日常事件。</p></div>
+        </div>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="block" id="news" aria-labelledby="h-news">
+        <div class="block-head">
+          <h2 id="h-news">相关资讯</h2>
+          <span class="kicker">6 条</span>
+        </div>
+        <div class="news-list">
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/mnvb-news-rain04/600/400" width="600" height="400" loading="lazy" alt="《雨夜来电》第 4 章上线资讯配图">
+            <div class="news-body">
+              <h4>《雨夜来电》第 4 章上线，隐藏通话需完成三个雨伞事件</h4>
+              <p>11 月 25 日更新，本章新增两段隐藏通话，触发条件与前三章的三次雨伞选择相关。</p>
+              <span class="news-date">2026-11-25</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/mnvb-news-xiaoman/600/400" width="600" height="400" loading="lazy" alt="AI 女友小满好感度回顾功能配图">
+            <div class="news-body">
+              <h4>AI 女友「小满」开放好感度回顾，可看 30 天对话关键词</h4>
+              <p>回顾页按话题聚类，能看出最近聊得最多的是工作还是读书，被视为长期陪伴类的新方向。</p>
+              <span class="news-date">2026-11-25</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/mnvb-news-winter/600/400" width="600" height="400" loading="lazy" alt="《同居三十日》冬季结局资讯配图">
+            <div class="news-body">
+              <h4>《同居三十日》冬季结局实装，雪天散步概率上调</h4>
+              <p>11 月 24 日更新，雪天散步触发率由 22% 提高到 35%，冬季结局共三条分支。</p>
+              <span class="news-date">2026-11-24</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/mnvb-news-whisper/600/400" width="600" height="400" loading="lazy" alt="《耳语时刻》加班深夜场景资讯配图">
+            <div class="news-body">
+              <h4>《耳语时刻》补录清冷声线，加班深夜场景增至 6 段</h4>
+              <p>本次更新集中在夜间场景，单段时长 4 到 8 分钟，适合通勤与睡前使用。</p>
+              <span class="news-date">2026-11-24</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/mnvb-news-sixdinner/600/400" width="600" height="400" loading="lazy" alt="《六人晚餐》二周目解锁条件调整资讯配图">
+            <div class="news-body">
+              <h4>《六人晚餐》二周目交叉对话门槛下调至好感 50</h4>
+              <p>11 月 12 日调整，开发方称希望降低重玩压力，同时保留时间分配的取舍感。</p>
+              <span class="news-date">2026-11-12</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/mnvb-news-letter/600/400" width="600" height="400" loading="lazy" alt="《迟到的情书》第二年秋季回信资讯配图">
+            <div class="news-body">
+              <h4>《迟到的情书》第二年秋季回信开放，新增 9 封可选信件</h4>
+              <p>本次更新补完第二年秋季时间线，回信内容会与此前批注过的段落产生呼应。</p>
+              <span class="news-date">2026-11-05</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 10 相关推荐 -->
+      <section class="block" id="related" aria-labelledby="h-related">
+        <div class="block-head">
+          <h2 id="h-related">相关推荐：延伸方向</h2>
+          <span class="kicker">8 个方向</span>
+        </div>
+        <p class="block-sub">与热榜不同，这里给的是可以继续深挖的内容方向，而不是当下最热的那几个。</p>
+        <div class="tag-index">
+          <a href="#picks">书信体恋爱叙事</a>
+          <a href="#picks">雨天场景设计</a>
+          <a href="#picks">多周目交叉对话</a>
+          <a href="#picks">经营驱动话题池</a>
+          <a href="#picks">AI 长期记忆机制</a>
+          <a href="#picks">语音场景与作息匹配</a>
+          <a href="#picks">好感度与心情双数值</a>
+          <a href="#picks">结局收集与回忆回顾</a>
+        </div>
+      </section>
+
+      <!-- 11 人气榜单 -->
+      <section class="block" id="ranking" aria-labelledby="h-ranking">
+        <div class="block-head">
+          <h2 id="h-ranking">人气榜单：本周讨论度前十</h2>
+          <span class="kicker">11-25 更新</span>
+        </div>
+        <p class="block-sub">按 11 月 19 日至 11 月 25 日社区讨论量与更新活跃度综合排序。</p>
+        <ol class="rank-list" style="counter-reset:rk">
+          <li><a href="#picks">《雨夜来电》</a><span class="meta">第 4 章</span></li>
+          <li><a href="#picks">《六人晚餐》</a><span class="meta">9.0 分</span></li>
+          <li><a href="#picks">《同居三十日》</a><span class="meta">冬季版</span></li>
+          <li><a href="#picks">AI 女友「小满」</a><span class="meta">回顾页</span></li>
+          <li><a href="#picks">《迟到的情书》</a><span class="meta">秋季回信</span></li>
+          <li><a href="#picks">《花店与告白》</a><span class="meta">42 话题</span></li>
+          <li><a href="#picks">《耳语时刻》</a><span class="meta">清冷声线</span></li>
+          <li><a href="#picks">「星野同学」</a><span class="meta">社团话题</span></li>
+          <li><a href="#picks">《心动物语》</a><span class="meta">日历系统</span></li>
+          <li><a href="#picks">《雨夜来电》隐藏通话</a><span class="meta">攻略向</span></li>
+        </ol>
+      </section>
+
+      <!-- 12 时间线 -->
+      <section class="block" id="timeline" aria-labelledby="h-timeline">
+        <div class="block-head">
+          <h2 id="h-timeline">近一个月版本时间线</h2>
+          <span class="kicker">6 个节点</span>
+        </div>
+        <ul class="timeline">
+          <li><span class="tl-date">2026-11-25</span><b>《雨夜来电》第 4 章上线</b>新增两段隐藏通话，需完成前三章三次雨伞事件。</li>
+          <li><span class="tl-date">2026-11-23</span><b>「星野同学」社团话题池更新</b>主动询问周五安排，话题从 12 条扩到 26 条。</li>
+          <li><span class="tl-date">2026-11-18</span><b>《花店与告白》新增六种花材</b>花语话题池扩充至 42 条，进货选品影响聊天内容。</li>
+          <li><span class="tl-date">2026-11-12</span><b>《六人晚餐》二周目门槛下调</b>交叉对话解锁好感要求从 60 降至 50。</li>
+          <li><span class="tl-date">2026-11-09</span><b>《六人晚餐》第四位女主支线</b>「沈栖」独立支线上线，含 5 个专属晚餐场景。</li>
+          <li><span class="tl-date">2026-11-05</span><b>《迟到的情书》第二年秋季回信</b>新增 9 封可选信件，与此前批注段落呼应。</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- 右：辅助栏 -->
+    <aside class="rail-right" aria-label="辅助信息">
+      <div class="side-card">
+        <h3>今日热榜</h3>
+        <ol class="rank-list">
+          <li><a href="#picks">《雨夜来电》第 4 章</a><span class="meta">9.1</span></li>
+          <li><a href="#picks">《六人晚餐》沈栖线</a><span class="meta">9.0</span></li>
+          <li><a href="#picks">小满好感度回顾</a><span class="meta">新</span></li>
+          <li><a href="#picks">《同居三十日》冬季结局</a><span class="meta">8.8</span></li>
+          <li><a href="#picks">《迟到的情书》秋信</a><span class="meta">8.9</span></li>
+          <li><a href="#picks">《耳语时刻》清冷声线</a><span class="meta">8.4</span></li>
+        </ol>
+      </div>
+      <div class="side-card">
+        <h3>更新时间节奏</h3>
+        <ul class="rank-list" style="counter-reset:none">
+          <li style="counter-increment:none"><a href="#updates">章节制：2—4 周 / 章</a><span class="meta">如雨夜来电</span></li>
+          <li style="counter-increment:none"><a href="#updates">AI 类：按周迭代</a><span class="meta">话题与记忆</span></li>
+          <li style="counter-increment:none"><a href="#updates">语音类：按月补场景</a><span class="meta">4—8 分钟</span></li>
+          <li style="counter-increment:none"><a href="#updates">养成类：季度大更</a><span class="meta">加结局/事件</span></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>新手三项检查</h3>
+        <ul class="rank-list" style="counter-reset:none">
+          <li style="counter-increment:none"><a href="#guide">第一章人设是否稳定</a><span class="meta">必看</span></li>
+          <li style="counter-increment:none"><a href="#guide">数值有无文本反馈</a><span class="meta">必看</span></li>
+          <li style="counter-increment:none"><a href="#guide">最近一次更新日期</a><span class="meta">必看</span></li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true">
+          <rect x="2" y="2" width="44" height="44" rx="14" fill="#7a3ff2"/>
+          <path d="M24 36s-9-5.6-9-11.6c0-3.1 2.4-5.4 5.3-5.4 1.6 0 3 .8 3.7 2 .7-1.2 2.1-2 3.7-2 2.9 0 5.3 2.3 5.3 5.4C33 30.4 24 36 24 36z" fill="#fff"/>
+        </svg>
+        <span class="brand-name">游戏可以搞的模拟女友<span class="brand-sub">SIM GIRLFRIEND INDEX</span></span>
+      </div>
+      <p class="footer-desc">聚焦剧情向恋爱模拟、日常同居养成、AI 对话陪伴与语音互动四类虚拟女友玩法，按条目整理章节进度、好感度设计与更新节奏，帮你在投入前先判断值不值得。</p>
+    </div>
+    <div class="footer-col">
+      <h4>玩法分类</h4>
+      <ul>
+        <li><a href="#categories">剧情向恋爱模拟</a></li>
+        <li><a href="#categories">日常同居养成</a></li>
+        <li><a href="#categories">AI 对话陪伴</a></li>
+        <li><a href="#categories">语音来电互动</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>栏目入口</h4>
+      <ul>
+        <li><a href="#picks">精选条目推荐</a></li>
+        <li><a href="#updates">更新与热播动态</a></li>
+        <li><a href="#deepdive">路线差异解析</a></li>
+        <li><a href="#faq">常见问答</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>社区与说明</h4>
+      <ul>
+        <li><a href="#comments">玩家评论</a></li>
+        <li><a href="#news">相关资讯</a></li>
+        <li><a href="#ranking">人气榜单</a></li>
+        <li><a href="#timeline">版本时间线</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>条目评分、热度与讨论量均为站内示例数据，用于展示条目差异，随版本更新调整。</span>
+    <span>站内内容整理于 2026 年 11 月 25 日 · 版权归原作品方所有</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var input = document.getElementById('siteSearch');
+  var btn = document.getElementById('searchBtn');
+  var grid = document.getElementById('pickGrid');
+  var hint = document.getElementById('searchHint');
+  if(!input || !grid) return;
+
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+  var originals = cards.map(function(c){
+    return {
+      el: c,
+      text: (c.textContent || '').toLowerCase()
+    };
+  });
+
+  function runSearch(){
+    var q = (input.value || '').trim().toLowerCase();
+    if(!q){
+      originals.forEach(function(o){ o.el.style.display = ''; });
+      hint.classList.remove('show');
+      return;
+    }
+    var hit = 0;
+    originals.forEach(function(o){
+      var match = o.text.indexOf(q) !== -1;
+      o.el.style.display = match ? '' : 'none';
+      if(match) hit++;
+    });
+    if(hit === 0){
+      hint.classList.add('show');
+    } else {
+      hint.classList.remove('show');
+    }
+  }
+
+  btn.addEventListener('click', runSearch);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+  });
+  input.addEventListener('input', function(){
+    if(input.value.trim() === '') runSearch();
+  });
+})();
+</script>
+
+</body>
+  </html>
